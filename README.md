@@ -1,6 +1,6 @@
-# Crypto Currency Analysis
+# **Crypto Currency Analysis**
 ## An Analysis of 10 Crypto Currencies
-## Table of Contents
+## *Table of Contents*
 - [Project Overview](#project-overview)
 - [Recommendations](#recommendations)
 - [References](#references)
@@ -29,6 +29,11 @@ SELECT *
 FROM Table1
 WHERE price >100;
 ```
+|Heading1|Heading2|Heading3|
+|-----|------|-----|
+|SQL|Python|Excel|
+
+`Column1`
 
 ### Results/Findings
 
