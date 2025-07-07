@@ -1,13 +1,21 @@
 # **Crypto Currency Analysis**
-## An Analysis of the Historical Data of 10 Crypto Currencies
+#### An Analysis of the Historical Data of 10 Crypto Currencies
 ## **Table of Contents**
+
 [Project Overview](project-overview)
+
 [Project Objectives](project-objectives)
+
 [Key-Deliverables](key-deliverables)
+
 [Tools Used](tools-used)
+
 [Data Sources](data-sources)
+
 [Data Description](data-description)
+
 [Data Cleaning](data-cleaning)
+
 [Power BI Dashboard](power-bi-dashboard)
 
 ---
