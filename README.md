@@ -1,5 +1,5 @@
 # **Crypto Currency Analysis**
-## An Analysis of the historical data of 10 Crypto Currencies
+## An Analysis of the Historical Data of 10 Crypto Currencies
 ## **Table of Contents**
 - [Project Overview](project-overview)
 - [Project Objectives](project-objectives)
