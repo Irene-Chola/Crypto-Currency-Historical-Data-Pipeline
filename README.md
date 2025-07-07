@@ -5,7 +5,7 @@
 - [Project Objectives](project-objectives)
 - [Key-Deliverables](key-deliverables)
 - [Tools Used](tools-used)
-- [Data Source and Description](data-source-and-description)
+- [Data Sources](data-sources)
 - [Data Description](data-description)
 - [Data Cleaning](data-cleaning)
 
@@ -33,7 +33,7 @@ To create a next-generation crypto currency intelligence and reporting platform 
   
 ---  
 
-### Data Source
+### Data Sources
 Here are the 4 datasets ingested from various sources. Each of this datasets was stored in a seperate folder in the Lake House.
 
   **1. Data from January 2020 - 21-07-2021** 
@@ -64,9 +64,13 @@ The following python code was used to perform symbol mapping from CoinGecko - [S
 ### Data Description
 Historical data was ingested from various sources a specified above. The goal of this exercise is to have a complete set of date from January 2020 - 13-06-2025 (The time this project was conducted). 
 
-**Crypyo Currencies data contained:** - Crypto symbol, Date, (High, Low, Open, Close) refers to the crypto price, Volume and Marketcap
+**Crypyo Currencies data contained:** 
 
-**Symbol Mapping data contained:** - Actual names of each crypto currency mapped using the crypto symbols.
+Crypto symbol, Date, (High, Low, Open, Close) refers to the crypto price, Volume and Marketcap
+
+**Symbol Mapping data contained:** 
+
+Actual names of each crypto currency mapped using the crypto symbols.
 
 ---
 
@@ -79,7 +83,8 @@ Historical data was ingested from various sources a specified above. The goal of
     - Appending CoinGecko data without duplicates
     - Appending YFinance data without duplicates
     - Standardizing column names across sources
-
+      
+---
 
 ### EDA(Exploratory Data Analysis)
 - What currency is the top seller?
