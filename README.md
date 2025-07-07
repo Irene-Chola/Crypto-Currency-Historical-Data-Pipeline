@@ -87,16 +87,33 @@ Actual names of each crypto currency mapped using the crypto symbols.
 ---
 
 ### EDA(Exploratory Data Analysis)
-- What currency is the top seller?
-
+- What is the total market capitalization?
+- What is the total market Volume?
+- What is the trend of each currency over time?
+- What is the price of each Crypto Currency?
+  
+---
 ### Data Analysis
+This historical data dashboard is created in PowerBI.
+Key Insights Shared:
+Trend analysis for each crypto coin
+Comparative price performance
+Volume and market capitalization analysis
+Detailed data table with metrics
+Interactive filters by year and coin
 
+---
+### Power BI Dashboard
+Here is a link to the PowerBI dashboard:
 
-### Results/Findings
+[Crypto Currency Historical Data Dashboard](https://1drv.ms/u/c/7ab97e2c9a69af1e/EY-8nULAYdJIgU80I8dhZn8Bf45gXGTaJ5cs3kXpteibrA?e=bVMppr)
+---
+### Results
 
+----
 
 ### Recommendations
-
+----
 ### Limitations
 
 ### References 
