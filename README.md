@@ -106,7 +106,8 @@ Interactive filters by year and coin
 ### Power BI Dashboard
 Here is a link to the PowerBI dashboard:
 
-[Crypto Currency Historical Data Dashboard](https://1drv.ms/u/c/7ab97e2c9a69af1e/EY-8nULAYdJIgU80I8dhZn8Bf45gXGTaJ5cs3kXpteibrA?e=bVMppr)
+[Crypto Currency Historical Data Dashboard](https://1drv.ms/u/c/7ab97e2c9a69af1e/Eem6jvH6EltGi23CE5S5oLYBusHNZJP6PpmCcYqJnTz3sw?e=sgGLHO)
+
 ---
 ### Results
 
