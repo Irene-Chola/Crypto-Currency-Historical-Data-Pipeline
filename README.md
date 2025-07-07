@@ -1,13 +1,14 @@
 # **Crypto Currency Analysis**
 ## An Analysis of the Historical Data of 10 Crypto Currencies
 ## **Table of Contents**
-- [Project Overview](project-overview)
-- [Project Objectives](project-objectives)
-- [Key-Deliverables](key-deliverables)
-- [Tools Used](tools-used)
-- [Data Sources](data-sources)
-- [Data Description](data-description)
-- [Data Cleaning](data-cleaning)
+[Project Overview](project-overview)
+[Project Objectives](project-objectives)
+[Key-Deliverables](key-deliverables)
+[Tools Used](tools-used)
+[Data Sources](data-sources)
+[Data Description](data-description)
+[Data Cleaning](data-cleaning)
+[Power BI Dashboard](power-bi-dashboard)
 
 ---
 ## Project Overview
@@ -86,7 +87,7 @@ Actual names of each crypto currency mapped using the crypto symbols.
       
 ---
 
-### EDA(Exploratory Data Analysis)
+### Exploratory Data Analysis
 - What is the total market capitalization?
 - What is the total market Volume?
 - What is the trend of each currency over time?
