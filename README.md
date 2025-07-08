@@ -67,16 +67,17 @@ This project delivers a next-generation cryptocurrency intelligence analysis for
 
 ## Data Sources
 **Currencies Used:**
-AAVE         
-Binancecoin
-Cosmos
-Dogecoin
-Ethereum
-Litecoin
-NEM
-Stellar
-Uniswap
-WrappedBitcoin
+
+-AAVE         
+-Binancecoin
+-Cosmos
+-Dogecoin
+-Ethereum
+-Litecoin
+-NEM
+-Stellar
+-Uniswap
+-WrappedBitcoin
 
 
 
