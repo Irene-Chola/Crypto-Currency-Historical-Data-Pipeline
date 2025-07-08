@@ -17,6 +17,7 @@
 ## Table of Contents
 
 - [Project Overview](#-project-overview)
+- [Microsoft Fabric Project Assets](microsoft-fabric-project-assets)
 - [Key Features](#-key-features)
 - [Architecture](#-architecture)
 - [Data Sources](#-data-sources)
@@ -36,6 +37,14 @@
 
 This project delivers a next-generation cryptocurrency intelligence analysis for a US-based fintech startup. The analysis enables effective monitoring and decision making for investors, traders, and regulators by providing comprehensive historical data analysis and real-time insights.
 
+---
+
+## Microsoft Fabric Project Assets
+1. Workspace
+2. Lakehouse
+3. Warehouse
+
+---
 
 ### Key Features
 
@@ -43,7 +52,7 @@ This project delivers a next-generation cryptocurrency intelligence analysis for
 - **Advanced Visualizations**: Comprehensive trend analysis, comparative performance metrics, and market insights
 - **Scalable Architecture**: Built on Microsoft Fabric for enterprise-grade performance
 
-
+--- 
 ## Architecture
 
 ```
@@ -69,10 +78,7 @@ Stellar
 Uniswap
 WrappedBitcoin
 
-## Microsoft Fabric Project Assets
-1. Workspace
-2. Lakehouse
-3. Warehouse
+
 
 ### 1. **Historical Foundation Data** (Jan 2020 - Jul 21, 2021)
 - **Format**: 10 CSV files
