@@ -72,14 +72,13 @@ This project delivers a next-generation cryptocurrency intelligence analysis for
 ## Data Sources
 **Currencies Used:**
 
-|    |     |
-|------|------|
-|AAVE|Binancecoin|
-|Cosmos|Dogecoin|
-|Ethereum|Litecoin|
-|NEM|Stellar|
-|Uniswap|WrappedBitcoin|
-
+| Currency | Symbol | Currency | Symbol |
+|----------|---------|----------|---------|
+| AAVE | AAVE | Binance Coin | BNB |
+| Cosmos | ATOM | Dogecoin | DOGE |
+| Ethereum | ETH | Litecoin | LTC |
+| NEM | XEM | Stellar | XLM |
+| Uniswap | UNI | Wrapped Bitcoin | WBTC |
 
 
 #### 1. **Historical Foundation Data** (Jan 2020 - Jul 21, 2021)
