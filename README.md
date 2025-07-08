@@ -1,15 +1,11 @@
  # Cryptocurrency Intelligence
 #### A comprehensive cryptocurrency analysis, providing real-time insights and historical data visualization for 10 major cryptocurrencies
 
-## Tools Used
+
 [![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)](https://powerbi.microsoft.com/)
-
 [![Microsoft Fabric](https://img.shields.io/badge/Microsoft%20Fabric-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](https://fabric.microsoft.com/)
-
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
-
 [![Yahoo Finance](https://img.shields.io/badge/Yahoo%20Finance-6001D2?style=for-the-badge&logo=yahoo&logoColor=white)](https://finance.yahoo.com/)
-
 [![CoinGecko](https://img.shields.io/badge/CoinGecko-8DC351?style=for-the-badge&logo=coingecko&logoColor=white)](https://coingecko.com/)
 
 ---
