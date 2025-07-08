@@ -162,11 +162,6 @@ This project delivers a next-generation cryptocurrency intelligence analysis for
 3. **Market Cycles**: Clear cyclical patterns identified across all currencies
 
 
-### Performance Optimizations
-- **Incremental Loading**: Only new/changed data processed
-- **Partitioning Strategy**: Date-based partitioning for optimal query performance
-- **Caching Layer**: Frequently accessed data cached for faster response times
-
 ---
 
 ## Results & Recommendations
@@ -189,7 +184,7 @@ This project delivers a next-generation cryptocurrency intelligence analysis for
 
 ## Future Enhancements
 
-### Phase 2 - Realtime Data Pipeline
+### Phase 2 - Implementation of a Realtime Data Pipeline
 
 
 ## Acknowledgments
@@ -205,4 +200,4 @@ This project delivers a next-generation cryptocurrency intelligence analysis for
 
 ---
 
-*Built with ❤️ by [Irene Chola](https://github.com/Irene-Chola)*
+*Built with by [Irene Chola](https://github.com/Irene-Chola)*
