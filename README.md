@@ -21,9 +21,9 @@
 - [Key Features](#-key-features)
 - [Architecture](#-architecture)
 - [Data Sources](#-data-sources)
-- [Installation & Setup](#-installation--setup)
-- [Usage](#-usage)
-- [Dashboard Screenshots](#-dashboard-screenshots)
+- [Prerequisites](#-Prerequisites)
+- [Data Pipeline Execution](#-data-pipeline-execution)
+- [Dashboard Navigation](#-dashboard-navigation)
 - [Key Insights](#-key-insights)
 - [Technical Implementation](#-technical-implementation)
 - [Results & Recommendations](#-results--recommendations)
@@ -70,15 +70,13 @@ This project delivers a next-generation cryptocurrency intelligence analysis for
 ## Data Sources
 **Currencies Used:**
 
--AAVE         -Binancecoin
-
--Cosmos       -Dogecoin
-
--Ethereum     -Litecoin
-
--NEM          -Stellar
-
--Uniswap      -WrappedBitcoin
+|    |     |
+|------|------|
+|AAVE|Binancecoin|
+|Cosmos|Dogecoin|
+|Ethereum|Litecoin|
+|NEM|Stellar|
+|Uniswap|WrappedBitcoin|
 
 
 
@@ -106,9 +104,7 @@ This project delivers a next-generation cryptocurrency intelligence analysis for
 - **Storage**: Microsoft Fabric Warehouse
 
 
-## Installation & Setup
-
-### Prerequisites
+## Prerequisites
 - Microsoft Fabric workspace access
 - PowerBI Desktop
 - API keys for Yahoo Finance and CoinGecko
@@ -140,20 +136,22 @@ This project delivers a next-generation cryptocurrency intelligence analysis for
    - Create a connection between the two files above
    - Create your dashboard and publish the dashboard to Microsoft Fabric WorkSPace
 
-### Dashboard Navigation
+## Dashboard Navigation
 - **Time Series Analysis**: Interactive charts with date range selection
 - **Comparative Analysis**: Side-by-side currency performance
 - **Market Metrics**: Real-time volume and market cap tracking
 - **Detailed Tables**: Comprehensive data exploration
 
-## Dashboard Screenshots
+### Dashboard Screenshots
 
 ### Main Dashboard
 ![Crypto Currency Dashboard](https://github.com/Irene-Chola/Crypto-Currency-Historical-Data-Project/blob/main/cryptocurrencyhistoricaldatadashboard.jpg)
 
 *Interactive dashboard showing trend analysis, price performance, and market insights*
 
-## 🔍 Key Insights
+---
+
+## Key Insights
 
 ### Market Analysis Results
 - **Total Market Capitalization**: $2.3T+ across analyzed currencies
@@ -166,23 +164,14 @@ This project delivers a next-generation cryptocurrency intelligence analysis for
 2. **Ethereum (ETH)**: Strong correlation with DeFi adoption
 3. **Market Cycles**: Clear cyclical patterns identified across all currencies
 
-## Technical Implementation
 
-### Data Processing Pipeline
-```python
-# Key transformations applied:
-- Date standardization and parsing
-- Duplicate removal across data sources
-- Column name standardization
-- Data type optimization
-- Missing value handling
-```
 
 ### Performance Optimizations
 - **Incremental Loading**: Only new/changed data processed
 - **Partitioning Strategy**: Date-based partitioning for optimal query performance
 - **Caching Layer**: Frequently accessed data cached for faster response times
 
+---
 ## Results & Recommendations
 
 ### Key Findings
@@ -199,38 +188,13 @@ This project delivers a next-generation cryptocurrency intelligence analysis for
 - **API Rate Limits**: Potential constraints during high-volume periods
 - **Historical Gaps**: Some minor data gaps in early 2020 period
 
+---
 ## Future Enhancements
 
 ### Phase 2 - Realtime Data Pipeline
 
 
-## 🤝 Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Code Style
-- Follow PEP 8 for Python code
-- Use meaningful variable names
-- Include comprehensive docstrings
-- Add unit tests for new features
-
-## 📞 Support & Contact
-
-- **Issues**: [GitHub Issues](https://github.com/Irene-Chola/Crypto-Currency-Historical-Data-Project/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/Irene-Chola/Crypto-Currency-Historical-Data-Project/discussions)
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Microsoft Fabric Team** for providing enterprise-grade data platform
 - **CoinGecko** for comprehensive cryptocurrency data
