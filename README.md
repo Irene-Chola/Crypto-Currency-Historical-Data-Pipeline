@@ -16,20 +16,18 @@
 
 ## Table of Contents
 
-- [Project Overview](#-project-overview)
-- [Microsoft Fabric Project Assets](microsoft-fabric-project-assets)
-- [Key Features](#-key-features)
-- [Architecture](#-architecture)
-- [Data Sources](#-data-sources)
-- [Prerequisites](#-Prerequisites)
-- [Data Pipeline Execution](#-data-pipeline-execution)
-- [Dashboard Navigation](#-dashboard-navigation)
-- [Key Insights](#-key-insights)
-- [Technical Implementation](#-technical-implementation)
-- [Results & Recommendations](#-results--recommendations)
-- [Future Enhancements](#-future-enhancements)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [Project Overview](#project-overview)
+- [Microsoft Fabric Project Assets](#microsoft-fabric-project-assets)
+- [Key Features](#key-features)
+- [Architecture](#architecture)
+- [Data Sources](#data-sources)
+- [Data Pipeline Execution](#data-pipeline-execution)
+- [Dashboard Navigation](#dashboard-navigation)
+- [Key Insights](#key-insights)
+- [Results & Recommendations](#results--recommendations)
+- [Future Enhancements](#future-enhancements)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
@@ -41,10 +39,14 @@ This project delivers a next-generation cryptocurrency intelligence analysis for
 
 ## Microsoft Fabric Project Assets
 1. Workspace
-2. 
-3. Lakehouse
-4. 
-5. Warehouse
+2. Lakehouse
+3.  Warehouse
+
+### Prerequisites
+- Microsoft Fabric workspace access
+- PowerBI Desktop
+- API keys for Yahoo Finance and CoinGecko
+
 
 ---
 
@@ -81,7 +83,7 @@ This project delivers a next-generation cryptocurrency intelligence analysis for
 
 
 #### 1. **Historical Foundation Data** (Jan 2020 - Jul 21, 2021)
-- **Format**: 10 CSV files
+- **Format**: [10 CSV files](https://github.com/Irene-Chola/Crypto-Currency-Historical-Data-Project/blob/main/coins_10.rar)
 - **Coverage**: Complete historical baseline for 10 major cryptocurrencies
 - **Storage**: Microsoft Fabric Lakehouse 
 
@@ -104,36 +106,33 @@ This project delivers a next-generation cryptocurrency intelligence analysis for
 - **Storage**: Microsoft Fabric Warehouse
 
 
-## Prerequisites
-- Microsoft Fabric workspace access
-- PowerBI Desktop
-- API keys for Yahoo Finance and CoinGecko
-
 ---
 
 ## Data Pipeline Execution
 1. **Historical Data Import**:
-   - Create a Microsoft Fabric Workspace, Lake House and Lake House
+   - Create a Microsoft Fabric Workspace, Lakehouse and Warehouse
    - Load the 10 CSV files into Microsoft Fabric
-   - Create a folder in the Lake House and store the data in tables
+   - Create a folder in the Lakehouse and store the data in tables
    
 3. **API Data Sync**:
-   - Write or upload your python script to Microsoft Fabric.
+   - Write or upload your python script to Microsoft Fabric
    - speficify the correct API key for each script
-   - Create a folder in your Data Lake and set up the file path to store your data
+   - Create a folder in your Lakehouse and set up the file path to store your data
    - Execute Yahoo Finance and CoinGecko data pulls
      
 4. **Data Transformation**:
-   - Create a dataflow and load all your files (10 CSV files, CoinGecko and Yahoo Finance) into the dataflow
+   - Create a dataflow and load all your files (10 CSV files, CoinGecko and Yahoo Finance data) into the dataflow
    - Apply cleaning and standardization processes with Dataflow
    - Append the dataset into a master table
-   - Load your master table into you Data Lake
+   - Load your master table into you Warehouse
      
 5. **Dashboard Deployment**:
-   - Create a connection from Microsoft Fabric to PowerBI
-   - Load your masterdata set and symbol mapping data to PowerBI
+   - Create a connection between PowerBI and Microsoft Fabric
+   - Load your master dataset and symbol mapping data to PowerBI
    - Create a connection between the two files above
    - Create your dashboard and publish the dashboard to Microsoft Fabric WorkSPace
+
+---
 
 ## Dashboard Navigation
 - **Time Series Analysis**: Interactive charts with date range selection
@@ -163,13 +162,13 @@ This project delivers a next-generation cryptocurrency intelligence analysis for
 3. **Market Cycles**: Clear cyclical patterns identified across all currencies
 
 
-
 ### Performance Optimizations
 - **Incremental Loading**: Only new/changed data processed
 - **Partitioning Strategy**: Date-based partitioning for optimal query performance
 - **Caching Layer**: Frequently accessed data cached for faster response times
 
 ---
+
 ## Results & Recommendations
 
 ### Key Findings
@@ -187,6 +186,7 @@ This project delivers a next-generation cryptocurrency intelligence analysis for
 - **Historical Gaps**: Some minor data gaps in early 2020 period
 
 ---
+
 ## Future Enhancements
 
 ### Phase 2 - Realtime Data Pipeline
