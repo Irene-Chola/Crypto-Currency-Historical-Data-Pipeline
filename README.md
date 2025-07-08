@@ -80,24 +80,24 @@ This project delivers a next-generation cryptocurrency intelligence analysis for
 
 
 
-### 1. **Historical Foundation Data** (Jan 2020 - Jul 21, 2021)
+#### 1. **Historical Foundation Data** (Jan 2020 - Jul 21, 2021)
 - **Format**: 10 CSV files
 - **Coverage**: Complete historical baseline for 10 major cryptocurrencies
 - **Storage**: Microsoft Fabric Lakehouse 
 
-### 2. **Yahoo Finance Integration** (Jul 22, 2021 - Jun 12, 2024)
+#### 2. **Yahoo Finance Integration** (Jul 22, 2021 - Jun 12, 2024)
 - **Source**: YFinance API
 - **Implementation**: [Python Integration Code](https://github.com/Irene-Chola/Crypto-Currency-Historical-Data-Project/blob/main/yahoofinancehistoricaldata.ipynb)
 - **Features**: Historical data
 - **Storage**: Microsoft Fabric Lakehouse
 
-### 3. **CoinGecko Premium Data** (Jun 13, 2024 - Jun 13, 2025)
+#### 3. **CoinGecko Premium Data** (Jun 13, 2024 - Jun 13, 2025)
 - **Source**: CoinGecko API
 - **Implementation**: [CoinGecko Integration Code](https://github.com/Irene-Chola/Crypto-Currency-Historical-Data-Project/blob/main/historicaldata_group.coingecko.ipynb)
 - **Features**: Historical data
 - **Storage**: Microsoft Fabric Lakehouse
 
-### 4. **Symbol Mapping Service**
+#### 4. **Symbol Mapping Service**
 - **Source**: CoinGecko API
 - **Implementation**: [Symbol Mapping Code](https://github.com/Irene-Chola/Crypto-Currency-Historical-Data-Project/blob/main/crypto_symbol_mapping.ipynb)
 - **Purpose**: Standardized currency identification across all data sources
@@ -109,10 +109,9 @@ This project delivers a next-generation cryptocurrency intelligence analysis for
 - PowerBI Desktop
 - API keys for Yahoo Finance and CoinGecko
 
+---
 
-## Usage
-
-### Data Pipeline Execution
+## Data Pipeline Execution
 1. **Historical Data Import**:
    - Create a Microsoft Fabric Workspace, Lake House and Lake House
    - Load the 10 CSV files into Microsoft Fabric
@@ -144,7 +143,6 @@ This project delivers a next-generation cryptocurrency intelligence analysis for
 
 ### Dashboard Screenshots
 
-### Main Dashboard
 ![Crypto Currency Dashboard](https://github.com/Irene-Chola/Crypto-Currency-Historical-Data-Project/blob/main/cryptocurrencyhistoricaldatadashboard.jpg)
 
 *Interactive dashboard showing trend analysis, price performance, and market insights*
