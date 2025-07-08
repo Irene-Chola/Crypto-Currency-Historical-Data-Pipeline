@@ -41,8 +41,10 @@ This project delivers a next-generation cryptocurrency intelligence analysis for
 
 ## Microsoft Fabric Project Assets
 1. Workspace
-2. Lakehouse
-3. Warehouse
+2. 
+3. Lakehouse
+4. 
+5. Warehouse
 
 ---
 
@@ -68,16 +70,15 @@ This project delivers a next-generation cryptocurrency intelligence analysis for
 ## Data Sources
 **Currencies Used:**
 
--AAVE         
--Binancecoin
--Cosmos
--Dogecoin
--Ethereum
--Litecoin
--NEM
--Stellar
--Uniswap
--WrappedBitcoin
+-AAVE         -Binancecoin
+
+-Cosmos       -Dogecoin
+
+-Ethereum     -Litecoin
+
+-NEM          -Stellar
+
+-Uniswap      -WrappedBitcoin
 
 
 
